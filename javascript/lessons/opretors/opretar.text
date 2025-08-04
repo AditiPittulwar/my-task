@@ -1,9 +1,17 @@
 
-let a = 40
-let b = 25
+// oprators
 
-console.log("addition of a and b",a+b)
-console.log("subtraction",a-b)
-console.log("Multiplication",a*b)
-console.log("Divi",a/b)
-console.log("Moduls",a%b)
+// 1. arithmatic oprators
+// + . - . * . / . %
+// 2. increement & dcreement
+// post/pre , ++ (+1) , -- (-1)
+// 3. comparision oprators
+// < , > , <= ,>=, !=(not equals), == , ===
+// 4. logical oprators
+// && , || , !
+// 5. bitwise oprators
+// AND, OR
+// 6. ternary oprator
+//  ? (ternary statement)
+// 7. member access oprators
+// -> .
