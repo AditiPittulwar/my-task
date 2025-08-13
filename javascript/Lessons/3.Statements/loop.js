@@ -274,25 +274,4 @@
 //       count++;
 //    }
 // }
-// console.log(count)
-
-Palindrome number or not using for loop
-
-let count = 0;
-
-for (let i = 1; i <= 1000; i++) {
-    let digit = 0;
-    let reverse = 0;
-
-    for (let num = i; num > 0; num = parseInt(num / 10)) {
-        digit = num % 10;
-        reverse = reverse * 10 + digit;
-    }
-
-    if (reverse === i) {
-        console.log(i + " is a Palindrome number.");
-        count++;
-    }
-}
-
-console.log("Total Palindrome numbers: " + count);
+// console.log(count);
